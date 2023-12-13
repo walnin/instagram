@@ -4,7 +4,7 @@
 }
 
 .thumbnail{
-    width: 100px;
+    width: 100%;
 }
 
 #stat_bar{
@@ -55,10 +55,67 @@
 
 #profile{
     display: grid;
-    grid-template-columns: 1fr 3.5fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 #profile_info{
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    height: 50px;
+}
+
+#id{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+button{
+    height: 80%;
+    width: 95%;
+
+    font-size: 10px;
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 3px;
+}
+#top{
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+    height: 30px;
+
+    border-bottom: solid gray 0.1px;
+    margin-bottom: 10px;
+}
+
+#top img{
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100%;
+    object-fit: contain;
+}
+
+#top input{
+    height: 60%;
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+
+    border: solid gray 1px;
+    border-radius: 3px;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+
+i{
+    font-size: 40px;
+    color: purple;
 }
