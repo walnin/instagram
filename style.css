@@ -55,12 +55,12 @@
 
 #profile{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3.5fr;
 }
 
 #profile_info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
     height: 50px;
 }
@@ -116,6 +116,14 @@ button{
 }
 
 i{
-    font-size: 40px;
-    color: purple;
+    color: gray;
+}
+
+#top i{
+    font-size: 14px;
+}
+
+#top div{
+    text-align: center;
+    padding-top: 6px;
 }
